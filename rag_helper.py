@@ -25,7 +25,7 @@ class RAGBase:
         prompt_template=PROMPT_TEMPLATE,
         model='gemini-3.1-flash-lite'
     ):
-        self.index = index,
+        self.index = index
         self.llm_client = llm_client
         self.instructions = instructions
         self.prompt_template = prompt_template
@@ -62,7 +62,7 @@ class RAGBase:
             ]
         )
 
-        return (response.choices[0].message.content, response.usage.prompt_tokens)
+        return response
 
     def rag(self, query):
         search_results = self.search(query)
