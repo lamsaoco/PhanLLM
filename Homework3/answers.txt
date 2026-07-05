@@ -1,0 +1,54 @@
+Q1. AI Copilot has access to current Kestra plugin documentation
+
+Q2. Vague, generic, or fabricated — the model guesses from training data
+
+Q3. 60-100 tokens
+log:
+INFO 2026-07-05T10:29:30.168513Z 📊 Token Usage Summary:
+
+Multilingual Agent:
+- Input tokens: 282
+- Output tokens: 80
+- Total tokens: 362
+
+English Brevity Agent:
+- Input tokens: 95
+- Output tokens: 34
+- Total tokens: 129
+
+💡 Tip: Monitor token usage to understand costs and optimize prompts!
+
+Q4. 2-5x more
+log:
+INFO 2026-07-05T10:31:09.856644Z 📊 Token Usage Summary:
+
+Multilingual Agent:
+- Input tokens: 282
+- Output tokens: 196
+- Total tokens: 478
+
+English Brevity Agent:
+- Input tokens: 211
+- Output tokens: 43
+- Total tokens: 254
+
+💡 Tip: Monitor token usage to understand costs and optimize prompts!
+
+Q5. About the same (within 20%)
+log:
+INFO 2026-07-05T10:34:18.679176Z 📊 Token Usage Summary:
+
+Multilingual Agent:
+- Input tokens: 282
+- Output tokens: 195
+- Total tokens: 477
+
+English Brevity Agent:
+- Input tokens: 210
+- Output tokens: 68
+- Total tokens: 278
+
+💡 Tip: Monitor token usage to understand costs and optimize prompts!
+
+Q6. Use traditional task-based workflows for predictability and auditability
+
