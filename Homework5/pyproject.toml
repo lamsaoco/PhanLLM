@@ -1,0 +1,18 @@
+[project]
+name = "homework5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gitsource>=0.0.5",
+    "jupyter>=1.1.1",
+    "minsearch>=0.2.0",
+    "notebook>=7.6.0",
+    "openai>=2.46.0",
+    "opentelemetry-api>=1.44.0",
+    "opentelemetry-sdk>=1.44.0",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+]

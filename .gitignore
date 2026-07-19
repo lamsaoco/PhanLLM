@@ -3,3 +3,6 @@
 *model.onnx
 *tokenizer.json
 *.env
+.venv*
+__pycache__*
+
